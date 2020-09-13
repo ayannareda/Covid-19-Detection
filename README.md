@@ -6,7 +6,7 @@ Used Transfer Learning to Classify the images of X-ray in three classes:-<br />
 2. No-Finding<br />
 3. Pneumonia<br /><br />
 
-Dataset is the publicly available CoronaHack-Chest X-Ray-Dataset which can be downloaded from this link: https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset. This dataset contains the following number of images: 125 COVID-19, 500 bacterial, and  500 viral pneumonias. <br /><br />
+Dataset is the publicly available CoronaHack-Chest X-Ray-Dataset which can be downloaded from this link: https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset. This dataset contains the following number of images: 125 COVID-19, 500 No-Findings, and  500 viral pneumonias. <br /><br />
 
 Splitted the data in three Train, Valid and Test part using Split-Folder python script.<br />
 Split-Folder.ipynb uses (os) module to read all the images and split it in three different folder.<br /><br />
